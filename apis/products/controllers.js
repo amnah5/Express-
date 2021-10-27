@@ -1,6 +1,6 @@
 const products = require("../../products");
 const product = require("../../db/models/product");
-const Product = require("../../db/Product");
+const Product = require("../../db/models/Product");
 
 exports.productListFetch = async (req, res) => {
   try {
